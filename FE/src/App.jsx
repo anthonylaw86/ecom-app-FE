@@ -12,6 +12,7 @@ import Orders from "./pages/Orders";
 import Navbar from "./components/Navbar";
 
 const App = () => {
+  console.log("hello");
   return (
     <div className="px-4 sm:px-[5vw] md:px-[7vw] 1g:px-[9vw]">
       <Navbar />
