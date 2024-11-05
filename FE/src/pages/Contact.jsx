@@ -13,7 +13,7 @@ const Contact = () => {
       <div className="my-10 flex flex-col justify-center md:flex-row gap-10 mb-28">
         <img
           className="w-full md:max-w-[480px]"
-          src={assets.contact_img}
+          src={assets.gothContact}
           alt="contact image"
         />
         <div className="flex flex-col justify-center items-start gap-6">
@@ -22,10 +22,10 @@ const Contact = () => {
             1234 Jefferson St. <br /> Suite A, Your State, USA
           </p>
           <p className=" text-gray-500">
-            Tel: (123) 555-1234 <br /> Email: admin@forever.com
+            Tel: (123) 555-1234 <br /> Email: admin@darkdeco.com
           </p>
           <p className="font-semibold text-xl text-gray-600">
-            Careers at Forever
+            Careers at Dark Deco
           </p>
           <p className="text-gray-500">
             Learn more about our teams and job openings.

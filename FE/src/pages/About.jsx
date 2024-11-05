@@ -12,16 +12,16 @@ const About = () => {
       <div className="my-10 flex flex-col md:flex-row gap-16">
         <img
           className="w-full md:max-w-[450px]"
-          src={assets.about_img}
+          src={assets.gothAbout1}
           alt="About Image"
         />
         <div className="flex flex-col justify-center gap-6 md:w-2/4 text-gray-600">
           <p>
-            Forever was born out of a passion for innovation and a desire to
+            Dark Deco was born out of a passion for innovation and a desire to
             revolutionize the way people shop online. Our journey began with a
             simple idea to provide a platform where customers can easily
-            discover, explore, and purchase a wide range of products from the
-            comfort of their home.
+            discover, explore, and purchase a wide range of home decor products
+            from the comfort of their home.
           </p>
           <p>
             Since our inception, we've worked tirelessly to curate a diverse
@@ -32,7 +32,7 @@ const About = () => {
           </p>
           <b className="text-gray-800">Our Mission</b>
           <p>
-            Our mission at Forever is to empower customers with choice,
+            Our mission at Dark Deco is to empower customers with choice,
             convenience, and confidence. We're dedicated to providing a seamless
             shopping experience that exceeds expectations, from browsing and
             ordering to delivery and beyond.
