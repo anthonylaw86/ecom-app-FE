@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { assets } from "../assets/assets.js";
 import axios from "axios";
 import { backendUrl } from "../App.jsx";
+import { toast } from "react-toastify";
 
 const Add = ({ token }) => {
   const [image1, setImage1] = useState(false);
@@ -44,8 +45,22 @@ const Add = ({ token }) => {
         { headers: { token } }
       );
 
-      console.log(response.data);
-    } catch (error) {}
+      if (response.data.success) {
+        toast.success(response.data.message);
+        setName("");
+        setDescription("");
+        setImage1(false);
+        setImage2(false);
+        setImage3(false);
+        setImage4(false);
+        setPrice("");
+      } else {
+        toast.error(response.data.message);
+      }
+    } catch (error) {
+      console.log(error);
+      toast.error(error.message);
+    }
   };
 
   return (
@@ -149,7 +164,7 @@ const Add = ({ token }) => {
           </select>
         </div>
         <div>
-          <p className="mb-2">Product Subcategory</p>
+          <p className="mb-2">Product SubCategory</p>
           <select
             onChange={(e) => setSubCategory(e.target.value)}
             className="w-full px-3 py-2"
