@@ -137,7 +137,7 @@ export const products = [
     _id: "1115",
     name: "Skull Demon Satanic Pentagram Rug",
     description:
-      " Skull demon satanic pentagram church area rug, black and white gothic home decor",
+      "Skull demon satanic pentagram church area rug, black and white gothic home decor",
     price: 70,
     image: [rug5img1],
     category: "Rugs",
