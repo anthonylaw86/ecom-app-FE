@@ -17,3 +17,7 @@ npm install
 npm run dev
 
 ## Screenshots
+
+![Screenshot 2024-11-11 at 2 37 53 PM](https://github.com/user-attachments/assets/cc6a2c22-5325-488e-9b87-f38c10dac85f)
+
+![Screenshot 2024-11-11 at 2 39 52 PM](https://github.com/user-attachments/assets/17632dfc-6d74-42f8-ad9c-88f9cf59ee01)
