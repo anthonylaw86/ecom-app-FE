@@ -1,8 +1,21 @@
-# React + Vite
+# Dark Deco
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dark Deco is a goth home decorations e-commerce site. The frontend features a landing page that shows newest arrivals & best sellers. Other pages includes a collection page, about us, contact page as well a cart with order details & payment processing section.
 
-Currently, two official plugins are available:
+This site also includes another frontend admin panel that can see any placed orders & update tracking information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Features
+
+-HTML
+-CSS
+-React
+-Tailwind
+-Toastify
+
+## Running The Project
+
+npm install
+
+npm run dev
+
+## Screenshots
